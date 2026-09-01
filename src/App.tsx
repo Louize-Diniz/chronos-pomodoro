@@ -1,9 +1,14 @@
+import './style/theme.css'; //tema
+import './style/global.css'; //css global
+import { Heading } from './components/Heading';
+
 //componente
 export function App() {
   console.log('oi');
 
   return (
     <>
+      <Heading />
       <h1>oi</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
