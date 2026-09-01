@@ -8,8 +8,11 @@ export function App() {
 
   return (
     <>
-      <Heading />
-      <h1>oi</h1>
+      <Heading> olá mundo!</Heading>
+      <Heading> oi feia</Heading>
+      <Heading> oi linda</Heading>
+      <Heading> oi horrorosa</Heading>
+      <Heading> oi cara de cu</Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
         distinctio animi sint esse molestias quidem perspiciatis quisquam ex, id
