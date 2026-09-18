@@ -1,0 +1,8 @@
+.counter{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(8rem, 30vw, 20rem);
+  font-weight: bolder;
+}

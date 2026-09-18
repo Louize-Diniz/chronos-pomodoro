@@ -1,0 +1,19 @@
+.defaultButton{
+    width: 25rem;
+    height: 4rem;
+    border: transparent;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.defaultButton:hover{
+    filter: brightness(50%);
+}
+.start{
+    background-color: var(--primary-ligth);
+}
+
+.stop{
+    background-color: var(--error);
+}

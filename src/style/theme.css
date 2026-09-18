@@ -21,6 +21,10 @@
   --error: #f56969;
   --info: #a1bff3;
 
+  --work-time:#a8f3a1;
+  --short-break-time:#efe26e;
+  --long-break-time:#a1bff3;
+
   --text-over-primary: #120d11;
   --text-over-primary-dark: #f0e6f0;
   --text-over-primary-light: #120d11;
@@ -30,8 +34,8 @@
   --text-over-primary-info: #120d11;
 
   --text-default: #f0e6f0;
-  --text-mutted: #a4a5a7;
+  --text-muted: #98989b4b;
 
-  --disabled: #946894;
+  --disabled: #3f2a3f;
   --text-disabled: #bb8ebb;
 }

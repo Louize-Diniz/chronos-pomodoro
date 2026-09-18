@@ -1,0 +1,29 @@
+.label {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.input {
+  background-color: var(--gray-900);
+  color: var(--text-default);
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  border-bottom: 0.2rem solid var( --primary);
+  transition: all 0.1s ease-in-out;
+}
+
+.input:focus{
+border: solid 0.2rem var( --primary);
+border-radius: 1rem;
+}
+
+.input:disabled{
+    border-bottom: 0.2rem solid var(--disabled);
+    color: var(--text-muted);
+
+}
+

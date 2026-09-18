@@ -1,19 +1,48 @@
 import './style/theme.css'; //tema
 import './style/global.css'; //css global
-import { Heading } from './components/Heading';
-
+import { Container } from './components/Container';
+import { Logo } from './components/Logo';
+import { Menu } from './components/Menu';
+import { CountDown } from './components/CountDown';
+import { DefaultInput } from './components/DefaultInput';
+import { Cycles } from './components/Cycles';
+import { PlayCircleIcon } from 'lucide-react';
+import {DefaultButton} from './components/DefaultButton'
 //componente
 export function App() {
-
   return (
     <>
-      <Heading> olá mundo!</Heading>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-        distinctio animi sint esse molestias quidem perspiciatis quisquam ex, id
-        neque ab cupiditate et explicabo fuga recusandae aliquid ipsa accusamus
-        voluptatum.
-      </p>
+      <Container>
+        <Logo />
+      </Container>
+
+      <Container>
+        <Menu />
+      </Container>
+
+      <Container>
+        <CountDown />
+      </Container>
+
+      <Container>
+        <form className='form' action=''>
+          <div className='formRow'>
+            <DefaultInput
+              labelText='Task:'
+              id='meuInput'
+              type='text'
+              placeholder='Digite algo'
+            />
+          </div>
+          <p className='formRow'>Lorem ipsum dolor!</p>
+          <div className='formRow'>
+            <Cycles/>
+          </div>
+          <div className='formRow'>
+            <DefaultButton icon={<PlayCircleIcon/>} />
+          </div>
+        </form>
+      </Container>
     </>
   );
 }
